@@ -30,8 +30,8 @@ Localhost'ta çalıştırmak için şu kodu yazıp Enter'a basmanız yeterlidir:
 ```bash
 
 streamlit run main_app.py
-Komutu çalıştırdıktan sonra tarayıcınızda otomatik olarak açılacaktır.
 ```
+Komutu çalıştırdıktan sonra tarayıcınızda otomatik olarak açılacaktır.
 
 ### 📂 Proje Mimarisi
 ```bash
