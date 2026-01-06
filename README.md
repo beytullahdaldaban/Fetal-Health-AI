@@ -20,21 +20,21 @@ Sağlık profesyonellerine yardımcı olmak amacıyla geliştirilen bu sistem, *
 
 Proje dosyalarını indirdikten sonra terminal üzerinden aşağıdaki adımları izleyin:
 
- **Gerekli Kütüphaneleri Yükleyin:**
-   ```bash
-   pip install -r requirements.txt
-  """
-   ## ▶️ Localhost'ta Nasıl Çalıştırılır?
-
-Projeyi kendi bilgisayarınızda açmak için terminale şu kodu yazıp Enter'a basmanız yeterlidir:
-
+### 1. Gerekli Kütüphaneleri Yükleyin
 ```bash
-streamlit run main_app.py
+pip install -r requirements.txt
+2. Uygulamayı Başlatın
+Localhost'ta çalıştırmak için şu kodu yazıp Enter'a basmanız yeterlidir:
 
+Bash
+
+streamlit run main_app.py
 Komutu çalıştırdıktan sonra tarayıcınızda otomatik olarak açılacaktır.
 
 📂 Proje Mimarisi
 Proje, sürdürülebilir Modüler Mimari prensibiyle geliştirilmiştir:
+
+Plaintext
 
 Fetal-Health-AI/
 ├── data_pipeline/          # Veri yükleme ve temizleme işlemleri
@@ -43,9 +43,7 @@ Fetal-Health-AI/
 ├── visualization/          # Grafik çizim fonksiyonları
 ├── ui/                     # Streamlit arayüz kodları
 └── main_app.py             # Ana uygulama dosyası
-
 👨‍💻 Geliştirici
-
-Beytullah Daldaban 🔗 [GitHub Profilim](https://github.com/beytullahdaldaban)
+Beytullah Daldaban 🔗 GitHub Profilim
 
 Bu proje, Görsel Programlama dersi final ödevi kapsamında geliştirilmiştir.
