@@ -10,8 +10,6 @@ Bu proje, Kardiyotokografi (CTG) verilerini kullanarak anne karnındaki bebeğin
 
 Sağlık profesyonellerine yardımcı olmak amacıyla geliştirilen bu sistem, Açıklanabilir Yapay Zeka (XAI) teknikleriyle modelin neden bu kararı verdiğini görselleştirir.
 
-Sağlık profesyonellerine yardımcı olmak amacıyla geliştirilen bu sistem, **Açıklanabilir Yapay Zeka (XAI)** teknikleriyle modelin neden bu kararı verdiğini görselleştirir.
-
 🚀 Özellikler
 
 Canlı Tahmin Modülü: Hasta verilerini girerek anlık risk analizi (Normal / Şüpheli / Patolojik)
@@ -28,10 +26,12 @@ Model Persistence: Eğitilen en iyi modelin kaydedilmesi ve tekrar kullanılabil
 
 Proje dosyalarını indirdikten sonra terminal üzerinden aşağıdaki adımları izleyin:
 
-1️⃣ Gerekli Kütüphaneleri Yükleyin
+1. Gerekli Kütüphaneleri Yükleyin
+
 pip install -r requirements.txt
 
-2️⃣ Uygulamayı Başlatın
+
+2. Uygulamayı Başlatın
 
 Localhost’ta çalıştırmak için aşağıdaki komutu yazmanız yeterlidir:
 
@@ -53,8 +53,8 @@ Fetal-Health-AI/
 └── main_app.py             # Ana uygulama dosyası
 
 👨‍💻 Geliştirici
-Beytullah Daldaban 
 
+Beytullah Daldaban
 🔗 GitHub Profilim
 
-📌 Bu proje, Görsel Programlama dersi final ödevi kapsamında geliştirilmiştir.
+Bu proje, Görsel Programlama dersi final ödevi kapsamında geliştirilmiştir.
