@@ -24,18 +24,18 @@ Proje dosyalarını indirdikten sonra terminal üzerinden aşağıdaki adımlar�
 ```bash
 pip install -r requirements.txt
 ```
-2. Uygulamayı Başlatın
+### 2. Uygulamayı Başlatın
 Localhost'ta çalıştırmak için şu kodu yazıp Enter'a basmanız yeterlidir:
 
-Bash
+```bash
 
 streamlit run main_app.py
 Komutu çalıştırdıktan sonra tarayıcınızda otomatik olarak açılacaktır.
+```
 
-📂 Proje Mimarisi
+### 📂 Proje Mimarisi
+```bash
 Proje, sürdürülebilir Modüler Mimari prensibiyle geliştirilmiştir:
-
-Plaintext
 
 Fetal-Health-AI/
 ├── data_pipeline/          # Veri yükleme ve temizleme işlemleri
@@ -44,7 +44,12 @@ Fetal-Health-AI/
 ├── visualization/          # Grafik çizim fonksiyonları
 ├── ui/                     # Streamlit arayüz kodları
 └── main_app.py             # Ana uygulama dosyası
-👨‍💻 Geliştirici
-Beytullah Daldaban 🔗 GitHub Profilim
+```
+
+### 👨‍💻 Geliştirici
+
+```bash 
+Beytullah Daldaban 🔗 [GitHub Profilim](https://github.com/beytullahdaldaban) 
 
 Bu proje, Görsel Programlama dersi final ödevi kapsamında geliştirilmiştir.
+```
